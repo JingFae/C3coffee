@@ -203,29 +203,12 @@ const Nav = () => {
 
   const socialLinks = [
     {
-      name: 'Facebook',
-      link: 'https://www.facebook.com/sipnplaynyc/',
+      name: 'Redbook',
+      link: 'https://xhslink.com/m/1q6tvzU9xDo',
       icon: <FaFacebook className="text-xl" />,
       color: 'hover:text-blue-600'
     },
-    {
-      name: 'Instagram',
-      link: 'https://www.instagram.com/sipnplaynyc/?hl=en',
-      icon: <FaInstagram className="text-xl" />,
-      color: 'hover:text-pink-600'
-    },
-    {
-      name: 'TikTok',
-      link: 'https://www.tiktok.com/@sipnplaynycofficial?lang=en',
-      icon: <FaTiktok className="text-xl" />,
-      color: 'hover:text-gray-800 dark:hover:text-white'
-    },
-    {
-      name: 'GitHub',
-      link: 'https://github.com/RamakrushnaBiswal/PlayCafe',
-      icon: <FaGithub className="text-xl" />,
-      color: 'hover:text-gray-800 dark:hover:text-white'
-    },
+
   ];
 
   return (
@@ -294,7 +277,7 @@ const Nav = () => {
               <FaEnvelope className="text-lg" />
             </span>
             <span className="group-hover:translate-x-1 transition-transform duration-300">
-              sipnplaynyc@gmail.com
+              scut_c3cafe@gmail.com
             </span>
           </a>
           
@@ -306,7 +289,7 @@ const Nav = () => {
               <FaPhone className="text-lg" />
             </span>
             <span className="group-hover:translate-x-1 transition-transform duration-300">
-              718-971-1684
+              13798160068
             </span>
           </a>
 
@@ -315,8 +298,8 @@ const Nav = () => {
               <FaMapMarkerAlt className="text-lg" />
             </span>
             <div>
-              <p>New York City</p>
-              <p className="text-sm text-gray-500 dark:text-gray-400">Board Game Cafe</p>
+              <p>Guangzhou City GZIC C3 buliding 3rd floor</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">C3Cafe</p>
             </div>
           </div>
 

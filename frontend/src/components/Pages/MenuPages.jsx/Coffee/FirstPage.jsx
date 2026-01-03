@@ -39,7 +39,7 @@ const FirstPage = () => {
                 <div>
                   <h2 className="md:text-xl text-xs font-semibold">Coffee</h2>
                   <p className="md:text-[16px] text-xs">
-                    $4.75 (Hot) / $5.25 (Cold)
+                    ¥18 (middle) / ¥20 (big)
                   </p>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const FirstPage = () => {
                 <div>
                   <h2 className="text-xs md:text-xl font-semibold">Latte</h2>
                   <p className="md:text-[16px] text-xs">
-                    $4.75 (Hot) / $5.25 (Cold)
+                    ¥13 (middle) / ¥16 (big)
                   </p>
                 </div>
               </div>
@@ -57,7 +57,7 @@ const FirstPage = () => {
                 <div>
                   <h2 className="md:text-xl text-xs font-semibold">Cortado</h2>
                   <p className="md:text-[16px] text-xs">
-                    $4.25 (Hot) / $4.75 (Cold)
+                    ¥14 (middle) / ¥18 (big)
                   </p>
                 </div>
               </div>
@@ -65,10 +65,10 @@ const FirstPage = () => {
               <div className="flex justify-between">
                 <div>
                   <h2 className="text-xs md:text-xl font-semibold">
-                    Drip Coffee - Small
+                    Cocoa Drink
                   </h2>
                   <p className="md:text-[16px] text-xs">
-                    $3 (Hot) / $3.50 (Cold)
+                    ¥11 (middle) / ¥14 (big)
                   </p>
                 </div>
               </div>
@@ -76,19 +76,19 @@ const FirstPage = () => {
               <div className="flex justify-between">
                 <div>
                   <h2 className="text-xs md:text-xl font-semibold">
-                    Drip Coffee - Medium
+                    Dirty
                   </h2>
-                  <p className="md:text-[16px] text-xs">$3.50 (Hot)</p>
+                  <p className="md:text-[16px] text-xs">¥16 (middle)</p>
                 </div>
               </div>
 
               <div className="hidden md:flex justify-between">
                 <div>
                   <h2 className="text-xs md:text-xl font-semibold">
-                    Drip Coffee - Large
+                    Aerocano
                   </h2>
                   <p className="md:text-[16px] text-xs">
-                    $4 (Hot) / $4.25 (Cold)
+                    ¥13 (middle) / ¥16 (big)
                   </p>
                 </div>
               </div>
@@ -98,7 +98,7 @@ const FirstPage = () => {
                   <h2 className="text-xs md:text-xl font-semibold">
                     Cafe au Lait
                   </h2>
-                  <p className="md:text-[16px] text-xs">$3.25 (Hot)</p>
+                  <p className="md:text-[16px] text-xs">¥15 (middle)</p>
                 </div>
               </div>
 
@@ -107,7 +107,7 @@ const FirstPage = () => {
                   <h2 className="text-xs md:text-xl font-semibold">
                     Cappuccino
                   </h2>
-                  <p className="md:text-[16px] text-xs">$4.50 (Hot)</p>
+                  <p className="md:text-[16px] text-xs">¥15 (middle)</p>
                 </div>
               </div>
             </div>
@@ -117,19 +117,19 @@ const FirstPage = () => {
                 <div>
                   <h2 className="text-xs md:text-xl font-semibold">Mocha</h2>
                   <p className="md:text-[16px] text-xs text-black/75">
-                    $5.75 (Hot) / $6.25 (Cold)
+                    ¥12 (middle) / ¥15 (big)
                   </p>
                 </div>
               </div>
 
               <div className="flex justify-between">
                 <div>
-                  <h2 className="md:text-xl text-xs font-semibold">Red Eye</h2>
+                  <h2 className="md:text-xl text-xs font-semibold">Coconut Water</h2>
                   <p className="md:text-[16px] text-xs">
-                    $4.50 (Hot) / $4.75 (Cold)
+                    ¥11 (middle) / ¥14 (big)
                   </p>
                   <p className="text-black/75 md:text-[16px] text-xs">
-                    Drip coffee with a shot of espresso
+                    Drip coffee with a smiddle of espresso
                   </p>
                 </div>
               </div>
@@ -140,7 +140,7 @@ const FirstPage = () => {
                     Americano
                   </h2>
                   <p className="md:text-[16px] text-xs">
-                    $3.75 (Hot) / $4.25 (Cold)
+                    ¥11 (middle) / ¥14 (big)
                   </p>
                 </div>
               </div>

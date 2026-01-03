@@ -1,7 +1,7 @@
 import drinks from '../../../../assets/Menu_assets/drinks.png';
 
 const DrinksStyle = {
-  backgroundImage: `url(${drinks})`,
+  backgroundImage: `url(¥{drinks})`,
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'contain',
   backgroundPosition: 'center',
@@ -36,7 +36,7 @@ const SecondPage = () => {
                     Matcha Latte
                   </h2>
                   <p className="text-black md:text-[16px] text-xs">
-                    $5.25 (Hot) / $5.75 (Cold)
+                    ¥15 (Hot) / ¥17 (Cold)
                   </p>
                 </div>
               </div>
@@ -47,10 +47,10 @@ const SecondPage = () => {
                     Hot Chocolate
                   </h2>
                   <p className="text-black md:text-[16px] text-xs">
-                    $4.50 (Hot)
+                    ¥14(Hot)
                   </p>
                   <p className="text-black md:text-[16px] text-xs">
-                    S&apos;more: $5.50
+                    S&apos;more: ¥15
                   </p>
                 </div>
               </div>
@@ -61,7 +61,7 @@ const SecondPage = () => {
                     Nutella Latte
                   </h2>
                   <p className="text-black md:text-[16px] text-xs">
-                    $5.75 (Hot) / $6.25 (Cold)
+                    ¥17 (Hot) / ¥20 (Cold)
                   </p>
                 </div>
               </div>
@@ -72,7 +72,7 @@ const SecondPage = () => {
                     Chai
                   </h2>
                   <p className="text-blackmd:text-[16px] text-xs">
-                    $5.00 (Hot) / $5.50 (Cold)
+                    ¥15 (Hot) / ¥17 (Cold)
                   </p>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const SecondPage = () => {
                     Dirty Chai
                   </h2>
                   <p className="text-blackmd:text-[16px] text-xs">
-                    $6.25 (Hot) / $6.75 (Cold)
+                    ¥18 (Hot) / ¥20 (Cold)
                   </p>
                 </div>
               </div>
@@ -94,7 +94,7 @@ const SecondPage = () => {
                     Lavender Latte
                   </h2>
                   <p className="text-blackmd:text-[16px] text-xs">
-                    $5.75 (Hot) / $6.25 (Cold)
+                    ¥16 (Hot) / ¥18 (Cold)
                   </p>
                 </div>
               </div>
@@ -106,7 +106,7 @@ const SecondPage = () => {
                     Rose Latte
                   </h2>
                   <p className="text-blackmd:text-[16px] text-xs">
-                    $5.75 (Hot) / $6.25 (Cold)
+                    ¥16 (Hot) / ¥18 (Cold)
                   </p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const SecondPage = () => {
                     Brown Sugar Latte
                   </h2>
                   <p className="text-blackmd:text-[16px] text-xs">
-                    $5.75 (Hot) / $6.25 (Cold)
+                    ¥16 (Hot) / ¥18 (Cold)
                   </p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ const SecondPage = () => {
                     Bumblebee Latte
                   </h2>
                   <p className="text-black md:text-[16px] text-xs">
-                    $6.25 (Hot) / $6.75 (Cold)
+                    ¥18 (Hot) / ¥20 (Cold)
                   </p>
                 </div>
               </div>

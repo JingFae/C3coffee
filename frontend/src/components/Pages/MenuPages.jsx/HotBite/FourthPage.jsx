@@ -1,7 +1,7 @@
 import tender from '../../../../assets/Menu_assets/tender.png';
 
 const cafeStyle = {
-  backgroundImage: `url(${tender})`,
+  backgroundImage: `url(￥{tender})`,
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'contain',
   backgroundPosition: 'center',
@@ -35,7 +35,7 @@ const FourthPage = () => {
                   <h2 className="md:text-xl text-xs font-semibold">
                     Chicken Poppers
                   </h2>
-                  <p className="text-xs md:text-[16px]">$6.00</p>
+                  <p className="text-xs md:text-[16px]">￥32</p>
                 </div>
               </div>
 
@@ -44,7 +44,7 @@ const FourthPage = () => {
                   <h2 className="md:text-xl text-xs font-semibold">
                     Mozz Sticks
                   </h2>
-                  <p className="text-xs md:text-[16px]">$7.00</p>
+                  <p className="text-xs md:text-[16px]">￥32</p>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ const FourthPage = () => {
                   <h2 className="md:text-xl text-xs font-semibold">
                     Pigs in a Blanket
                   </h2>
-                  <p className="text-xs md:text-[16px]">$7.00</p>
+                  <p className="text-xs md:text-[16px]">￥32</p>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const FourthPage = () => {
                   <h2 className="md:text-xl text-xs font-semibold">
                     Tater Tots
                   </h2>
-                  <p className="text-xs md:text-[16px]">$5.00</p>
+                  <p className="text-xs md:text-[16px]">￥28</p>
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ const FourthPage = () => {
                   <h2 className="md:text-xl text-xs font-semibold">
                     Chicken Tenders
                   </h2>
-                  <p className="text-xs md:text-[16px]">$8.00</p>
+                  <p className="text-xs md:text-[16px]">￥35</p>
                 </div>
               </div>
 
@@ -80,14 +80,14 @@ const FourthPage = () => {
                   <h2 className="md:text-xl text-xs font-semibold">
                     Onion Rings
                   </h2>
-                  <p className="text-xs md:text-[16px]">$5.00</p>
+                  <p className="text-xs md:text-[16px]">￥28</p>
                 </div>
               </div>
 
               <div className="md:flex hidden justify-between">
                 <div>
                   <h2 className="md:text-xl text-xs font-semibold">Fries</h2>
-                  <p className="text-xs md:text-[16px]">$5.00</p>
+                  <p className="text-xs md:text-[16px]">￥28</p>
                 </div>
               </div>
 
@@ -96,7 +96,7 @@ const FourthPage = () => {
                   <h2 className="md:text-xl text-xs font-semibold">
                     Sweet Potato Fries
                   </h2>
-                  <p className="text-xs md:text-[16px]">$6.00</p>
+                  <p className="text-xs md:text-[16px]">￥32</p>
                 </div>
               </div>
             </div>

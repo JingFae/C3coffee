@@ -16,64 +16,64 @@ const todaysSpecials = [
   { 
     name: "Espresso", 
     description: "Rich and bold coffee shot.", 
-    originalPrice: "$3.00", 
-    offerPrice: "$2.50",
+    originalPrice: "¥18.00", 
+    offerPrice: "¥15.00",
     image: espresso 
   },
   { 
     name: "Cappuccino", 
     description: "Creamy coffee with frothy milk.", 
-    originalPrice: "$3.50", 
-    offerPrice: "$3.00",
+    originalPrice: "¥15.00", 
+    offerPrice: "¥13.00",
     image: cappuccino 
   },
   { 
     name: "Latte", 
     description: "Smooth coffee with steamed milk.", 
-    originalPrice: "$4.00", 
-    offerPrice: "$3.50",
+    originalPrice: "¥13.00", 
+    offerPrice: "¥11.00",
     image: latte 
   },
   { 
     name: "Mango Smoothie", 
     description: "Refreshing mango blend.", 
-    originalPrice: "$4.50", 
-    offerPrice: "$4.00",
+    originalPrice: "¥22.00", 
+    offerPrice: "¥20.00",
     image: mango_smoothie 
   },
   { 
     name: "Lemonade", 
     description: "Zesty and chilled lemonade.", 
-    originalPrice: "$2.50", 
-    offerPrice: "$2.00",
+    originalPrice: "¥17.00", 
+    offerPrice: "¥15.00",
     image: lemonade 
   },
   { 
     name: "Iced Tea", 
     description: "Cool iced tea with lemon.", 
-    originalPrice: "$2.00", 
-    offerPrice: "$1.50",
+    originalPrice: "¥13.00", 
+    offerPrice: "¥11.00",
     image: iced_tea 
   },
   { 
     name: "Cheese Sandwich", 
     description: "Toasted sandwich with cheese.", 
-    originalPrice: "$3.50", 
-    offerPrice: "$3.00",
+    originalPrice: "¥20.00", 
+    offerPrice: "¥18.00",
     image: cheese_sandwich 
   },
   { 
     name: "Pasta Primavera", 
     description: "Veggies and pasta in a light sauce.", 
-    originalPrice: "$5.50", 
-    offerPrice: "$5.00",
+    originalPrice: "¥32.50", 
+    offerPrice: "¥30.00",
     image: pasta_primavera 
   },
   { 
     name: "Caesar Salad", 
     description: "Crispy salad with Caesar dressing.", 
-    originalPrice: "$5.00", 
-    offerPrice: "$4.50",
+    originalPrice: "¥32.00", 
+    offerPrice: "¥30.00",
     image: caesar_salad 
   }
 ];
@@ -82,7 +82,7 @@ const infiniteSpecials = todaysSpecials;
 
 const SpecialCard = ({ special, index, onMouseEnter, onMouseLeave }) => (
   <div 
-    className={` ${index % 2 === 0 ? 'bg-pink-100 dark:bg-amber-900' : 'bg-teal-100 dark:bg-amber-500'} p-4 rounded-lg shadow-lg max-w-xs text-center transition-transform duration-300 ease-in-out transform hover:scale-105 mx-2`}
+    className={` ¥{index % 2 === 0 ? 'bg-pink-100 dark:bg-amber-900' : 'bg-teal-100 dark:bg-amber-500'} p-4 rounded-lg shadow-lg max-w-xs text-center transition-transform duration-300 ease-in-out transform hover:scale-105 mx-2`}
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}
   >
@@ -160,13 +160,13 @@ const TodaysSpecial = () => {
         <div className="relative mt-5">
           <div className="overflow-visible">
             <div
-              className={`flex transition-transform duration-500 ease-in-out ${!isTransitioning ? 'transition-none' : ''}`}
+              className={`flex transition-transform duration-500 ease-in-out ¥{!isTransitioning ? 'transition-none' : ''}`}
               style={{
-                transform: `translateX(-${(currentIndex - 1) * specialsWidth}%)`,
+                transform: `translateX(-¥{(currentIndex - 1) * specialsWidth}%)`,
               }}
             >
               {infiniteSpecials.map((special, index) => (
-                <div key={index} className={`w-full ${isSmallScreen ? 'flex-shrink-0' : 'sm:w-1/3 flex-shrink-0'} px-2`}>
+                <div key={index} className={`w-full ¥{isSmallScreen ? 'flex-shrink-0' : 'sm:w-1/3 flex-shrink-0'} px-2`}>
                   <SpecialCard 
                     special={special} 
                     index={index} 
@@ -205,7 +205,7 @@ const TodaysSpecial = () => {
               <div
                 key={index}
                 onClick={() => setCurrentIndex(index + 1)}
-                className={`w-2 h-2 mx-1 rounded-full ${currentIndex === index + 1 ? 'bg-red-600' : 'bg-gray-400'}`}
+                className={`w-2 h-2 mx-1 rounded-full ¥{currentIndex === index + 1 ? 'bg-red-600' : 'bg-gray-400'}`}
               />
             ))}
         </div>

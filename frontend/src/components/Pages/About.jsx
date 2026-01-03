@@ -25,12 +25,8 @@ export default function About() {
           {/* Paragraph */}
           <div className="relative z-10 flex justify-center w-full mt-6 md:mt-0 md:px-36 ">
             <p className="w-full text-sm text-gray-200 md:text-base lg:text-xl">
-              How it works.. Our name says it all! Founder, Jonathan Li, shares
-              a passion for board games, boba, and delicious food, so he
-              combined them all to become Sip & Play, Park Slope’s first board
-              game cafe. It is a straightforward concept, come in with your
-              friends and family to play any board game from our library of{' '}
-              <span className="text-amber-600">300+ games!</span>
+              How it works.. 
+              We C3 cafe is located in the 3rd floor of C3 building in GZIC.
               We hope when you visit, you also enjoy our coffee, espresso, boba,
               sandwiches, and snacks!
               <br />
@@ -39,15 +35,12 @@ export default function About() {
               <br />
               New opening hours:
               <br />
-              Sunday: 10am-11pm
+              # 7 days a week
               <br />
-              Mon-Thurs: 11am-11pm
+              # 9am-6pm
               <br />
-              Fri: 11am-midnight
-              <br />
-              Sat: 10am-midnight
-              <br />
-              Our kitchen closes 2.5-3 hours before we close!
+              * Our kitchen closes half an hour before we close!
+
             </p>
           </div>
         </div>
